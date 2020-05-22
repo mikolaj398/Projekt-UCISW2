@@ -1,0 +1,732 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: sch.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sch.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sch"
+Output Format                      : NGC
+Target Device                      : XC9500XL CPLDs
+
+---- Source Options
+Top Module Name                    : sch
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/xylinx/projekt2/AclMod.vhd" in Library work.
+Entity <aclmod> compiled.
+Entity <AclMod> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/xylinx/projekt2/I2C_Master.vhd" in Library work.
+Entity <I2C_Master> compiled.
+Entity <I2C_Master> (Architecture <STRUCTURE>) compiled.
+Compiling vhdl file "D:/xylinx/projekt2/sch.vhf" in Library work.
+Entity <sch> compiled.
+Entity <sch> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <sch> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <AclMod> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <I2C_Master> in library <work> (architecture <STRUCTURE>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sch> in library <work> (Architecture <BEHAVIORAL>).
+Entity <sch> analyzed. Unit <sch> generated.
+
+Analyzing Entity <AclMod> in library <work> (Architecture <Behavioral>).
+Entity <AclMod> analyzed. Unit <AclMod> generated.
+
+Analyzing Entity <I2C_Master> in library <work> (Architecture <STRUCTURE>).
+    Set user-defined property "INIT =  0" for instance <RdNotWr> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregOut_0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregOut_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregOut_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregOut_3> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregOut_4> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregOut_5> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregOut_6> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregOut_7> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <NACK_12> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregIn_0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregIn_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregIn_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregIn_3> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregIn_4> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregIn_5> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregIn_6> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <sregIn_7> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntBits_0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntBits_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntBits_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntBits_3> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntSCL_0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntSCL_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntSCL_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntSCL_3> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntSCL_4> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntSCL_5> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntSCL_6> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntSCL_7> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntBytes_0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntBytes_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntBytes_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <cntBytes_3> in unit <I2C_Master>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IOB1> in unit <I2C_Master>.
+    Set user-defined property "DRIVE =  12" for instance <IOB1> in unit <I2C_Master>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IOB1> in unit <I2C_Master>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IOB1> in unit <I2C_Master>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IOB1> in unit <I2C_Master>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IOB1> in unit <I2C_Master>.
+    Set user-defined property "SLEW =  20" for instance <IOB1> in unit <I2C_Master>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <IOB2> in unit <I2C_Master>.
+    Set user-defined property "DRIVE =  12" for instance <IOB2> in unit <I2C_Master>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <IOB2> in unit <I2C_Master>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <IOB2> in unit <I2C_Master>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <IOB2> in unit <I2C_Master>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <IOB2> in unit <I2C_Master>.
+    Set user-defined property "SLEW =  20" for instance <IOB2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <state_FSM_FFd3> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <state_FSM_FFd1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  1" for instance <state_FSM_FFd6> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <state_FSM_FFd4> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <i_FIFO_addrWr_3> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <i_FIFO_addrWr_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <i_FIFO_addrWr_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <i_FIFO_addrWr_0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <i_FIFO_addrRd_3> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <i_FIFO_addrRd_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <i_FIFO_addrRd_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <i_FIFO_addrRd_0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0000" for instance <i_FIFO_Mram_RAM8> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0000" for instance <i_FIFO_Mram_RAM7> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0000" for instance <i_FIFO_Mram_RAM6> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0000" for instance <i_FIFO_Mram_RAM5> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0000" for instance <i_FIFO_Mram_RAM4> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0000" for instance <i_FIFO_Mram_RAM3> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0000" for instance <i_FIFO_Mram_RAM2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0000" for instance <i_FIFO_Mram_RAM1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <i_FIFO_iFull> in unit <I2C_Master>.
+    Set user-defined property "INIT =  1" for instance <i_FIFO_iEmpty> in unit <I2C_Master>.
+    Set user-defined property "INIT =  6" for instance <Mcount_cntBits_xor_1_11> in unit <I2C_Master>.
+    Set user-defined property "INIT =  6A" for instance <Mcount_cntBits_xor_2_11> in unit <I2C_Master>.
+    Set user-defined property "INIT =  6AAA" for instance <Mcount_cntBits_xor_3_11> in unit <I2C_Master>.
+    Set user-defined property "INIT =  8" for instance <RdNotWr_and00001> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EB41" for instance <Mcount_cntBytes_xor_1_11> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0080" for instance <NACK_and00007> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FE54" for instance <sregOut_mux0000_0_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FFBF" for instance <SCLout_mux00008> in unit <I2C_Master>.
+    Set user-defined property "INIT =  7" for instance <SCLout_mux000017> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FFFB" for instance <SCLout_mux000021> in unit <I2C_Master>.
+    Set user-defined property "INIT =  C040" for instance <SCLout_mux000061> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0080" for instance <sregIn_and00001> in unit <I2C_Master>.
+    Set user-defined property "INIT =  8" for instance <SDAout_mux0003426> in unit <I2C_Master>.
+    Set user-defined property "INIT =  8F88" for instance <state_FSM_FFd4_In1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EA" for instance <state_FSM_FFd2_In2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  08" for instance <state_FSM_FFd2_In12> in unit <I2C_Master>.
+    Set user-defined property "INIT =  2232" for instance <state_FSM_FFd2_In26> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0080" for instance <SDAout_mux00038> in unit <I2C_Master>.
+    Set user-defined property "INIT =  1" for instance <SDAout_mux000316> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FF10" for instance <SDAout_mux000325> in unit <I2C_Master>.
+    Set user-defined property "INIT =  F888" for instance <SDAout_mux0003431> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FFFE" for instance <SDAout_mux000393> in unit <I2C_Master>.
+    Set user-defined property "INIT =  F7FF" for instance <SDAout_mux0003112> in unit <I2C_Master>.
+    Set user-defined property "INIT =  E" for instance <SDAout_mux0003139> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FFD8" for instance <SDAout_mux0003180> in unit <I2C_Master>.
+    Set user-defined property "INIT =  6" for instance <i_FIFO_Result_1_11> in unit <I2C_Master>.
+    Set user-defined property "INIT =  6" for instance <i_FIFO_Result_1_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  F7FF" for instance <cntBytes_not0001_SW0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  F2F0" for instance <cntBytes_not0001> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FA8A" for instance <state_FSM_FFd3_In> in unit <I2C_Master>.
+    Set user-defined property "INIT =  A888" for instance <state_FSM_FFd1_In_SW0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FD20" for instance <state_FSM_FFd1_In> in unit <I2C_Master>.
+    Set user-defined property "INIT =  E" for instance <cntSCL_or00001> in unit <I2C_Master>.
+    Set user-defined property "INIT =  BA" for instance <cntBits_or00001> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FFFD" for instance <sregOut_not000111> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FEAE" for instance <sregOut_not0001> in unit <I2C_Master>.
+    Set user-defined property "INIT =  90" for instance <i_FIFO_iFull_and000076> in unit <I2C_Master>.
+    Set user-defined property "INIT =  80" for instance <i_FIFO_iFull_and000096> in unit <I2C_Master>.
+    Set user-defined property "INIT =  3237" for instance <i_FIFO_DoPop> in unit <I2C_Master>.
+    Set user-defined property "INIT =  5444" for instance <i_FIFO_DoPush40> in unit <I2C_Master>.
+    Set user-defined property "INIT =  1" for instance <SCLout> in unit <I2C_Master>.
+    Set user-defined property "INIT =  A8" for instance <SCLout_mux0000721> in unit <I2C_Master>.
+    Set user-defined property "INIT =  1" for instance <SDAout> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <state_FSM_FFd5> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0" for instance <state_FSM_FFd2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  2" for instance <Mcount_cntSCL_cy_1_rt> in unit <I2C_Master>.
+    Set user-defined property "INIT =  2" for instance <Mcount_cntSCL_cy_2_rt> in unit <I2C_Master>.
+    Set user-defined property "INIT =  2" for instance <Mcount_cntSCL_cy_3_rt> in unit <I2C_Master>.
+    Set user-defined property "INIT =  2" for instance <Mcount_cntSCL_cy_4_rt> in unit <I2C_Master>.
+    Set user-defined property "INIT =  2" for instance <Mcount_cntSCL_cy_5_rt> in unit <I2C_Master>.
+    Set user-defined property "INIT =  2" for instance <Mcount_cntSCL_cy_6_rt> in unit <I2C_Master>.
+    Set user-defined property "INIT =  2" for instance <Mcount_cntSCL_xor_7_rt> in unit <I2C_Master>.
+    Set user-defined property "INIT =  1" for instance <i_FIFO_DoPop_SW2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  ABFB" for instance <i_FIFO_iFull_or00001> in unit <I2C_Master>.
+    Set user-defined property "INIT =  B" for instance <SDAout_mux000332_SW0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0020" for instance <sclEnd_cmp_eq00001> in unit <I2C_Master>.
+    Set user-defined property "INIT =  ECA0" for instance <SDAout_mux00032041> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0040" for instance <i_FIFO_DoPush13> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FFBF" for instance <sclEnd_cmp_eq00001_SW0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  2148" for instance <i_FIFO_iFull_and000071> in unit <I2C_Master>.
+    Set user-defined property "INIT =  6AAA" for instance <i_FIFO_Result_3_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  6AAA" for instance <i_FIFO_Result_3_11> in unit <I2C_Master>.
+    Set user-defined property "INIT =  69C3" for instance <i_FIFO_iEmpty_and000058> in unit <I2C_Master>.
+    Set user-defined property "INIT =  8000" for instance <sregOut_not0001_SW0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  69" for instance <i_FIFO_iEmpty_and000067> in unit <I2C_Master>.
+    Set user-defined property "INIT =  AE" for instance <i_FIFO_DoPush40_SW0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  D" for instance <i_FIFO_DoPush40_SW1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  B8F0" for instance <i_FIFO_iEmpty_or00001> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FF01" for instance <SDAout_mux0003157_SW0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  028A" for instance <i_FIFO_iEmpty_and0000102> in unit <I2C_Master>.
+    Set user-defined property "INIT =  69C3" for instance <i_FIFO_iFull_and000048> in unit <I2C_Master>.
+    Set user-defined property "INIT =  D" for instance <NACK_and000020_SW0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  1000" for instance <NACK_and000022> in unit <I2C_Master>.
+    Set user-defined property "INIT =  A8FF" for instance <i_FIFO_DoPop_SW3_G> in unit <I2C_Master>.
+    Set user-defined property "INIT =  F1FF" for instance <i_FIFO_DoPop_SW4_G> in unit <I2C_Master>.
+    Set user-defined property "INIT =  6A" for instance <i_FIFO_Result_2_11> in unit <I2C_Master>.
+    Set user-defined property "INIT =  6A" for instance <i_FIFO_Result_2_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  1000" for instance <SCLout_mux000063> in unit <I2C_Master>.
+    Set user-defined property "INIT =  8F88" for instance <state_FSM_FFd5_In1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  B313" for instance <Mcount_cntBytes_xor_0_11> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FD20" for instance <DI_7_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FD20" for instance <DI_6_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FD20" for instance <DI_5_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FD20" for instance <DI_4_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FD20" for instance <DI_3_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FD20" for instance <DI_2_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FD20" for instance <DI_1_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FD20" for instance <DI_0_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  C9" for instance <Mcount_cntBytes_xor_2_1_SW1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <Mcount_cntBytes_xor_2_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  AAA9" for instance <Mcount_cntBytes_xor_3_1_SW1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <Mcount_cntBytes_xor_3_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_7_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_7_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_6_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_6_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_5_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_5_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_4_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_4_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_3_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_3_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_2_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_2_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_1_1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  EC4C" for instance <sregOut_mux0000_1_2> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FFFE" for instance <Mcount_cntBytes_xor_3_111> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0001" for instance <SDAout_mux0003412> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0001" for instance <SDAout_mux0003425> in unit <I2C_Master>.
+    Set user-defined property "INIT =  B" for instance <SDAout_mux000337> in unit <I2C_Master>.
+    Set user-defined property "INIT =  8" for instance <SDAout_mux000388> in unit <I2C_Master>.
+    Set user-defined property "INIT =  7" for instance <SDAout_mux0003107> in unit <I2C_Master>.
+    Set user-defined property "INIT =  F1" for instance <state_FSM_FFd3_In_SW0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  C404" for instance <sregOut_not0001_SW1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  08" for instance <SDAout_mux000332> in unit <I2C_Master>.
+    Set user-defined property "INIT =  4000" for instance <NACK_and000011> in unit <I2C_Master>.
+    Set user-defined property "INIT =  D" for instance <i_FIFO_DoPop_SW1> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FF7F" for instance <i_FIFO_DoPush13_SW0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  1000" for instance <SDAout_mux000358> in unit <I2C_Master>.
+    Set user-defined property "INIT =  C4" for instance <i_FIFO_DoPush0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FFFD" for instance <i_FIFO_DoPop_SW0> in unit <I2C_Master>.
+    Set user-defined property "INIT =  FFFE" for instance <SDAout_mux0003157> in unit <I2C_Master>.
+    Set user-defined property "INIT =  0990" for instance <i_FIFO_iEmpty_and0000102_SW0> in unit <I2C_Master>.
+Entity <I2C_Master> analyzed. Unit <I2C_Master> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <AclMod>.
+    Related source file is "D:/xylinx/projekt2/AclMod.vhd".
+WARNING:Xst:647 - Input <I2C_FIFO_Full> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <DataRate> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <DRDY> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <Input<47:24>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 27                                             |
+    | Transitions        | 35                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 32                                             |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Reset                     (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | init                                           |
+    | Power Up State     | init                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | automatic                                      |
+    -----------------------------------------------------------------------
+    Found 3-bit register for signal <bytes>.
+    Found 3-bit adder for signal <bytes$share0000>.
+    Found 8-bit register for signal <DRX_reg>.
+    Found 8-bit register for signal <DRY_reg>.
+    Found 8-bit register for signal <DRZ_reg>.
+    Found 8-bit register for signal <ID_reg>.
+    Found 24-bit register for signal <Input<23:0>>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <AclMod> synthesized.
+
+
+Synthesizing Unit <I2C_Master>.
+    Related source file is "D:/xylinx/projekt2/I2C_Master.vhd".
+WARNING:Xst:646 - Signal <NLW_i_FIFO_Mram_RAM8_SPO_UNCONNECTED> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <NLW_i_FIFO_Mram_RAM7_SPO_UNCONNECTED> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <NLW_i_FIFO_Mram_RAM6_SPO_UNCONNECTED> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <NLW_i_FIFO_Mram_RAM5_SPO_UNCONNECTED> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <NLW_i_FIFO_Mram_RAM4_SPO_UNCONNECTED> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <NLW_i_FIFO_Mram_RAM3_SPO_UNCONNECTED> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <NLW_i_FIFO_Mram_RAM2_SPO_UNCONNECTED> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <NLW_i_FIFO_Mram_RAM1_SPO_UNCONNECTED> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <NLW_IOB2_O_UNCONNECTED> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <I2C_Master> synthesized.
+
+
+Synthesizing Unit <sch>.
+    Related source file is "D:/xylinx/projekt2/sch.vhf".
+Unit <sch> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 3-bit adder                                           : 1
+# Registers                                            : 29
+ 1-bit register                                        : 24
+ 3-bit register                                        : 1
+ 8-bit register                                        : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_1/state/FSM> on signal <state[1:27]> with one-hot encoding.
+------------------------------------------------
+ State           | Encoding
+------------------------------------------------
+ init            | 000000000000000000000000001
+ pushaddrid      | 000000000000000000000000010
+ sendaddrid      | 000000000000000000000000100
+ busyaddrid      | 000000000000000000000001000
+ receiveid       | 000000000000000000000010000
+ busyid          | 000000000000000000000100000
+ readid          | 000000000000000000001000000
+ popid           | 000000000000000000010000000
+ checkid         | 000000000000000000100000000
+ pushaddrconfiga | 000000000000000001000000000
+ pushdataconfiga | 000000000000000010000000000
+ sendconfiga     | 000000000000000100000000000
+ busyconfiga     | 000000000000001000000000000
+ pushaddrmode    | 000000000000010000000000000
+ pushdatamode    | 000000000000100000000000000
+ sendmode        | 000000000001000000000000000
+ busymode        | 000000000010000000000000000
+ measurereceive  | 000000000100000000000000000
+ measurebusy     | 000000001000000000000000000
+ measureread     | 000000010000000000000000000
+ measurepop      | 000000100000000000000000000
+ measurecheck    | 000001000000000000000000000
+ measureload     | 000010000000000000000000000
+ measureoutput   | 000100000000000000000000000
+ measurepushaddr | 001000000000000000000000000
+ measuresendaddr | 010000000000000000000000000
+ measurebusyaddr | 100000000000000000000000000
+------------------------------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 1
+ 3-bit adder                                           : 1
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sch> ...
+
+Optimizing unit <I2C_Master> ...
+  implementation constraint: INIT=0	 : RdNotWr
+  implementation constraint: INIT=0	 : sregOut_0
+  implementation constraint: INIT=0	 : sregOut_1
+  implementation constraint: INIT=0	 : sregOut_2
+  implementation constraint: INIT=0	 : sregOut_3
+  implementation constraint: INIT=0	 : sregOut_4
+  implementation constraint: INIT=0	 : sregOut_5
+  implementation constraint: INIT=0	 : sregOut_6
+  implementation constraint: INIT=0	 : sregOut_7
+  implementation constraint: INIT=0	 : NACK_12
+  implementation constraint: INIT=0	 : sregIn_0
+  implementation constraint: INIT=0	 : sregIn_1
+  implementation constraint: INIT=0	 : sregIn_2
+  implementation constraint: INIT=0	 : sregIn_3
+  implementation constraint: INIT=0	 : sregIn_4
+  implementation constraint: INIT=0	 : sregIn_5
+  implementation constraint: INIT=0	 : sregIn_6
+  implementation constraint: INIT=0	 : sregIn_7
+  implementation constraint: INIT=0	 : cntBits_0
+  implementation constraint: INIT=0	 : cntBits_1
+  implementation constraint: INIT=0	 : cntBits_2
+  implementation constraint: INIT=0	 : cntBits_3
+  implementation constraint: INIT=0	 : cntSCL_0
+  implementation constraint: INIT=0	 : cntSCL_1
+  implementation constraint: INIT=0	 : cntSCL_2
+  implementation constraint: INIT=0	 : cntSCL_3
+  implementation constraint: INIT=0	 : cntSCL_4
+  implementation constraint: INIT=0	 : cntSCL_5
+  implementation constraint: INIT=0	 : cntSCL_6
+  implementation constraint: INIT=0	 : cntSCL_7
+  implementation constraint: INIT=0	 : cntBytes_0
+  implementation constraint: INIT=0	 : cntBytes_1
+  implementation constraint: INIT=0	 : cntBytes_2
+  implementation constraint: INIT=0	 : cntBytes_3
+  implementation constraint: INIT=0	 : state_FSM_FFd3
+  implementation constraint: INIT=0	 : state_FSM_FFd1
+  implementation constraint: INIT=1	 : state_FSM_FFd6
+  implementation constraint: INIT=0	 : state_FSM_FFd4
+  implementation constraint: INIT=0	 : i_FIFO_addrWr_3
+  implementation constraint: INIT=0	 : i_FIFO_addrWr_2
+  implementation constraint: INIT=0	 : i_FIFO_addrWr_1
+  implementation constraint: INIT=0	 : i_FIFO_addrWr_0
+  implementation constraint: INIT=0	 : i_FIFO_addrRd_3
+  implementation constraint: INIT=0	 : i_FIFO_addrRd_2
+  implementation constraint: INIT=0	 : i_FIFO_addrRd_1
+  implementation constraint: INIT=0	 : i_FIFO_addrRd_0
+  implementation constraint: INIT=0000	 : i_FIFO_Mram_RAM8
+  implementation constraint: INIT=0000	 : i_FIFO_Mram_RAM7
+  implementation constraint: INIT=0000	 : i_FIFO_Mram_RAM6
+  implementation constraint: INIT=0000	 : i_FIFO_Mram_RAM5
+  implementation constraint: INIT=0000	 : i_FIFO_Mram_RAM4
+  implementation constraint: INIT=0000	 : i_FIFO_Mram_RAM3
+  implementation constraint: INIT=0000	 : i_FIFO_Mram_RAM2
+  implementation constraint: INIT=0000	 : i_FIFO_Mram_RAM1
+  implementation constraint: INIT=0	 : i_FIFO_iFull
+  implementation constraint: INIT=1	 : i_FIFO_iEmpty
+  implementation constraint: INIT=6	 : Mcount_cntBits_xor_1_11
+  implementation constraint: INIT=6A	 : Mcount_cntBits_xor_2_11
+  implementation constraint: INIT=6AAA	 : Mcount_cntBits_xor_3_11
+  implementation constraint: INIT=8	 : RdNotWr_and00001
+  implementation constraint: INIT=EB41	 : Mcount_cntBytes_xor_1_11
+  implementation constraint: INIT=0080	 : NACK_and00007
+  implementation constraint: INIT=FE54	 : sregOut_mux0000_0_1
+  implementation constraint: INIT=FFBF	 : SCLout_mux00008
+  implementation constraint: INIT=7	 : SCLout_mux000017
+  implementation constraint: INIT=FFFB	 : SCLout_mux000021
+  implementation constraint: INIT=C040	 : SCLout_mux000061
+  implementation constraint: INIT=0080	 : sregIn_and00001
+  implementation constraint: INIT=8	 : SDAout_mux0003426
+  implementation constraint: INIT=8F88	 : state_FSM_FFd4_In1
+  implementation constraint: INIT=EA	 : state_FSM_FFd2_In2
+  implementation constraint: INIT=08	 : state_FSM_FFd2_In12
+  implementation constraint: INIT=2232	 : state_FSM_FFd2_In26
+  implementation constraint: INIT=0080	 : SDAout_mux00038
+  implementation constraint: INIT=1	 : SDAout_mux000316
+  implementation constraint: INIT=FF10	 : SDAout_mux000325
+  implementation constraint: INIT=F888	 : SDAout_mux0003431
+  implementation constraint: INIT=FFFE	 : SDAout_mux000393
+  implementation constraint: INIT=F7FF	 : SDAout_mux0003112
+  implementation constraint: INIT=E	 : SDAout_mux0003139
+  implementation constraint: INIT=FFD8	 : SDAout_mux0003180
+  implementation constraint: INIT=6	 : i_FIFO_Result_1_11
+  implementation constraint: INIT=6	 : i_FIFO_Result_1_1
+  implementation constraint: INIT=F7FF	 : cntBytes_not0001_SW0
+  implementation constraint: INIT=F2F0	 : cntBytes_not0001
+  implementation constraint: INIT=FA8A	 : state_FSM_FFd3_In
+  implementation constraint: INIT=A888	 : state_FSM_FFd1_In_SW0
+  implementation constraint: INIT=FD20	 : state_FSM_FFd1_In
+  implementation constraint: INIT=E	 : cntSCL_or00001
+  implementation constraint: INIT=BA	 : cntBits_or00001
+  implementation constraint: INIT=FFFD	 : sregOut_not000111
+  implementation constraint: INIT=FEAE	 : sregOut_not0001
+  implementation constraint: INIT=90	 : i_FIFO_iFull_and000076
+  implementation constraint: INIT=80	 : i_FIFO_iFull_and000096
+  implementation constraint: INIT=3237	 : i_FIFO_DoPop
+  implementation constraint: INIT=5444	 : i_FIFO_DoPush40
+  implementation constraint: INIT=1	 : SCLout
+  implementation constraint: INIT=A8	 : SCLout_mux0000721
+  implementation constraint: INIT=1	 : SDAout
+  implementation constraint: INIT=0	 : state_FSM_FFd5
+  implementation constraint: INIT=0	 : state_FSM_FFd2
+  implementation constraint: INIT=2	 : Mcount_cntSCL_cy_1_rt
+  implementation constraint: INIT=2	 : Mcount_cntSCL_cy_2_rt
+  implementation constraint: INIT=2	 : Mcount_cntSCL_cy_3_rt
+  implementation constraint: INIT=2	 : Mcount_cntSCL_cy_4_rt
+  implementation constraint: INIT=2	 : Mcount_cntSCL_cy_5_rt
+  implementation constraint: INIT=2	 : Mcount_cntSCL_cy_6_rt
+  implementation constraint: INIT=2	 : Mcount_cntSCL_xor_7_rt
+  implementation constraint: INIT=1	 : i_FIFO_DoPop_SW2
+  implementation constraint: INIT=ABFB	 : i_FIFO_iFull_or00001
+  implementation constraint: INIT=B	 : SDAout_mux000332_SW0
+  implementation constraint: INIT=0020	 : sclEnd_cmp_eq00001
+  implementation constraint: INIT=ECA0	 : SDAout_mux00032041
+  implementation constraint: INIT=0040	 : i_FIFO_DoPush13
+  implementation constraint: INIT=FFBF	 : sclEnd_cmp_eq00001_SW0
+  implementation constraint: INIT=2148	 : i_FIFO_iFull_and000071
+  implementation constraint: INIT=6AAA	 : i_FIFO_Result_3_2
+  implementation constraint: INIT=6AAA	 : i_FIFO_Result_3_11
+  implementation constraint: INIT=69C3	 : i_FIFO_iEmpty_and000058
+  implementation constraint: INIT=8000	 : sregOut_not0001_SW0
+  implementation constraint: INIT=69	 : i_FIFO_iEmpty_and000067
+  implementation constraint: INIT=AE	 : i_FIFO_DoPush40_SW0
+  implementation constraint: INIT=D	 : i_FIFO_DoPush40_SW1
+  implementation constraint: INIT=B8F0	 : i_FIFO_iEmpty_or00001
+  implementation constraint: INIT=FF01	 : SDAout_mux0003157_SW0
+  implementation constraint: INIT=028A	 : i_FIFO_iEmpty_and0000102
+  implementation constraint: INIT=69C3	 : i_FIFO_iFull_and000048
+  implementation constraint: INIT=D	 : NACK_and000020_SW0
+  implementation constraint: INIT=1000	 : NACK_and000022
+  implementation constraint: INIT=A8FF	 : i_FIFO_DoPop_SW3_G
+  implementation constraint: INIT=F1FF	 : i_FIFO_DoPop_SW4_G
+  implementation constraint: INIT=6A	 : i_FIFO_Result_2_11
+  implementation constraint: INIT=6A	 : i_FIFO_Result_2_1
+  implementation constraint: INIT=1000	 : SCLout_mux000063
+  implementation constraint: INIT=8F88	 : state_FSM_FFd5_In1
+  implementation constraint: INIT=B313	 : Mcount_cntBytes_xor_0_11
+  implementation constraint: INIT=FD20	 : DI_7_1
+  implementation constraint: INIT=FD20	 : DI_6_1
+  implementation constraint: INIT=FD20	 : DI_5_1
+  implementation constraint: INIT=FD20	 : DI_4_1
+  implementation constraint: INIT=FD20	 : DI_3_1
+  implementation constraint: INIT=FD20	 : DI_2_1
+  implementation constraint: INIT=FD20	 : DI_1_1
+  implementation constraint: INIT=FD20	 : DI_0_1
+  implementation constraint: INIT=C9	 : Mcount_cntBytes_xor_2_1_SW1
+  implementation constraint: INIT=EC4C	 : Mcount_cntBytes_xor_2_1
+  implementation constraint: INIT=AAA9	 : Mcount_cntBytes_xor_3_1_SW1
+  implementation constraint: INIT=EC4C	 : Mcount_cntBytes_xor_3_1
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_7_1
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_7_2
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_6_1
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_6_2
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_5_1
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_5_2
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_4_1
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_4_2
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_3_1
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_3_2
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_2_1
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_2_2
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_1_1
+  implementation constraint: INIT=EC4C	 : sregOut_mux0000_1_2
+  implementation constraint: INIT=FFFE	 : Mcount_cntBytes_xor_3_111
+  implementation constraint: INIT=0001	 : SDAout_mux0003412
+  implementation constraint: INIT=0001	 : SDAout_mux0003425
+  implementation constraint: INIT=B	 : SDAout_mux000337
+  implementation constraint: INIT=8	 : SDAout_mux000388
+  implementation constraint: INIT=7	 : SDAout_mux0003107
+  implementation constraint: INIT=F1	 : state_FSM_FFd3_In_SW0
+  implementation constraint: INIT=C404	 : sregOut_not0001_SW1
+  implementation constraint: INIT=08	 : SDAout_mux000332
+  implementation constraint: INIT=4000	 : NACK_and000011
+  implementation constraint: INIT=D	 : i_FIFO_DoPop_SW1
+  implementation constraint: INIT=FF7F	 : i_FIFO_DoPush13_SW0
+  implementation constraint: INIT=1000	 : SDAout_mux000358
+  implementation constraint: INIT=C4	 : i_FIFO_DoPush0
+  implementation constraint: INIT=FFFD	 : i_FIFO_DoPop_SW0
+  implementation constraint: INIT=FFFE	 : SDAout_mux0003157
+  implementation constraint: INIT=0990	 : i_FIFO_iEmpty_and0000102_SW0
+
+Optimizing unit <AclMod> ...
+  implementation constraint: INIT=r	 : bytes_2
+  implementation constraint: INIT=s	 : state_FSM_FFd27
+  implementation constraint: INIT=r	 : bytes_0
+  implementation constraint: INIT=r	 : bytes_1
+  implementation constraint: INIT=r	 : state_FSM_FFd25
+  implementation constraint: INIT=r	 : state_FSM_FFd26
+  implementation constraint: INIT=r	 : state_FSM_FFd24
+  implementation constraint: INIT=r	 : state_FSM_FFd1
+  implementation constraint: INIT=r	 : state_FSM_FFd2
+  implementation constraint: INIT=r	 : state_FSM_FFd3
+  implementation constraint: INIT=r	 : state_FSM_FFd4
+  implementation constraint: INIT=r	 : state_FSM_FFd5
+  implementation constraint: INIT=r	 : state_FSM_FFd6
+  implementation constraint: INIT=r	 : state_FSM_FFd7
+  implementation constraint: INIT=r	 : state_FSM_FFd8
+  implementation constraint: INIT=r	 : state_FSM_FFd9
+  implementation constraint: INIT=r	 : state_FSM_FFd10
+  implementation constraint: INIT=r	 : state_FSM_FFd11
+  implementation constraint: INIT=r	 : state_FSM_FFd12
+  implementation constraint: INIT=r	 : state_FSM_FFd13
+  implementation constraint: INIT=r	 : state_FSM_FFd14
+  implementation constraint: INIT=r	 : state_FSM_FFd15
+  implementation constraint: INIT=r	 : state_FSM_FFd16
+  implementation constraint: INIT=r	 : state_FSM_FFd17
+  implementation constraint: INIT=r	 : state_FSM_FFd18
+  implementation constraint: INIT=r	 : state_FSM_FFd19
+  implementation constraint: INIT=r	 : state_FSM_FFd20
+  implementation constraint: INIT=r	 : state_FSM_FFd21
+  implementation constraint: INIT=r	 : state_FSM_FFd22
+  implementation constraint: INIT=r	 : state_FSM_FFd23
+WARNING:Xst:2036 - Inserting OBUF on port <SDA> driven by black box <IOBUF>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <SCL> driven by black box <IOBUF>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <NACK> driven by black box <FDRE>. Possible simulation mismatch.
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sch.ngr
+Top Level Output File Name         : sch
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : XC9500XL CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 42
+
+Cell Usage :
+# BELS                             : 210
+#      AND2                        : 69
+#      AND3                        : 11
+#      AND8                        : 1
+#      GND                         : 2
+#      INV                         : 95
+#      OR2                         : 26
+#      OR3                         : 1
+#      OR6                         : 2
+#      VCC                         : 1
+#      XOR2                        : 2
+# FlipFlops/Latches                : 86
+#      FD                          : 30
+#      FDCE                        : 56
+# IO Buffers                       : 37
+#      IBUF                        : 2
+#      OBUF                        : 35
+# Others                           : 205
+#      FDE                         : 21
+#      FDR                         : 11
+#      FDRE                        : 16
+#      FDRS                        : 1
+#      FDS                         : 3
+#      IOBUF                       : 2
+#      LUT1                        : 7
+#      LUT2                        : 13
+#      LUT2_D                      : 1
+#      LUT2_L                      : 3
+#      LUT3                        : 12
+#      LUT3_D                      : 2
+#      LUT3_L                      : 1
+#      LUT4                        : 70
+#      LUT4_D                      : 5
+#      LUT4_L                      : 5
+#      MUXCY                       : 7
+#      MUXF5                       : 9
+#      RAM16X1D                    : 8
+#      XORCY                       : 8
+=========================================================================
+WARNING:Xst:616 - Invalid property "SLEW 20": Did not attach to IOB1.
+WARNING:Xst:616 - Invalid property "SLEW 20": Did not attach to IOB2.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.95 secs
+ 
+--> 
+
+Total memory usage is 4538136 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,6 @@
+EN sch NULL D:/xylinx/projekt2/sch.vhf sub00/vhpl04 1590084654
+AR aclmod behavioral D:/xylinx/projekt2/AclMod.vhd sub00/vhpl01 1590084651
+EN i2c_master NULL D:/xylinx/projekt2/I2C_Master.vhd sub00/vhpl02 1590084652
+AR i2c_master structure D:/xylinx/projekt2/I2C_Master.vhd sub00/vhpl03 1590084653
+AR sch behavioral D:/xylinx/projekt2/sch.vhf sub00/vhpl05 1590084655
+EN aclmod NULL D:/xylinx/projekt2/AclMod.vhd sub00/vhpl00 1590084650

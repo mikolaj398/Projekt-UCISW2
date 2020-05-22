@@ -1,0 +1,14 @@
+vhdtdtfi -lib work AclMod.vhd -prj projekt2 -o AclMod.spl -module AclMod -template D:/xylinx/xdd/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work AclMod.vhd -prj projekt2 -o AclMod.spl -module AclMod -template D:/xylinx/xdd/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work AclMod.vhd -prj projekt2 -o AclMod.spl -module AclMod -template D:/xylinx/xdd/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl AclMod.spl D:/xylinx/projekt2/AclMod.sym 
+vhdtdtfi -lib work AclMod.vhd -prj projekt2 -o AclMod.spl -module AclMod -template D:/xylinx/xdd/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl AclMod.spl D:/xylinx/projekt2/AclMod.sym 
+vhdtdtfi -lib work AclMod.vhd -prj projekt2 -o AclMod.spl -module AclMod -template D:/xylinx/xdd/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl AclMod.spl D:/xylinx/projekt2/AclMod.sym 
+vhdtdtfi -lib work AclMod.vhd -prj projekt2 -o AclMod.spl -module AclMod -template D:/xylinx/xdd/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl AclMod.spl D:/xylinx/projekt2/AclMod.sym 
+vhdtdtfi -lib work AclMod.vhd -prj projekt2 -o AclMod.spl -module AclMod -template D:/xylinx/xdd/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl AclMod.spl D:/xylinx/projekt2/AclMod.sym 
+vhdtdtfi -lib work AclMod.vhd -prj projekt2 -o AclMod.spl -module AclMod -template D:/xylinx/xdd/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl AclMod.spl D:/xylinx/projekt2/AclMod.sym 

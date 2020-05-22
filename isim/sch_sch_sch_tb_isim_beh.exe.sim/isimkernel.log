@@ -1,0 +1,10 @@
+Command line:
+   sch_sch_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56137
+
+Fri May 22 09:19:16 2020
+
+
+ Elaboration Time: 0.09375 sec

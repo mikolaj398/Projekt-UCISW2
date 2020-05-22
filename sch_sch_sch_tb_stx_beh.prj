@@ -1,0 +1,4 @@
+vhdl isim_temp "I2C_Master.vhd"
+vhdl isim_temp "AclMod.vhd"
+vhdl isim_temp "sch.vhf"
+vhdl isim_temp "tb.vhd"

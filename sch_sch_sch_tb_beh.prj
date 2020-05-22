@@ -1,0 +1,4 @@
+vhdl work "I2C_Master.vhd"
+vhdl work "AclMod.vhd"
+vhdl work "sch.vhf"
+vhdl work "tb.vhd"

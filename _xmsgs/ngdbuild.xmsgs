@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="NgdBuild" num="889" delta="new" >Pad net &apos;<arg fmt="%s" index="1">SCL_OBUF</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">SCL_OBUF</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="new" >Pad net &apos;<arg fmt="%s" index="1">SDA_OBUF</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">SDA_OBUF</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/RdNotWr</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_0</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_1</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_2</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_3</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_4</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_5</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_6</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_7</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregIn_0</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregIn_1</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregIn_2</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregIn_3</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregIn_4</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregIn_5</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregIn_6</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregIn_7</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/cntBytes_0</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/cntBytes_1</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/cntBytes_2</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDE</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/cntBytes_3</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_0_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">XORCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_xor_0_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_1_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">XORCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_xor_1_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_2_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">XORCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_xor_2_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_3_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">XORCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_xor_3_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_4_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">XORCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_xor_4_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_5_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">XORCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_xor_5_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_6_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">XORCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_xor_6_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">XORCY</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_xor_7_Q</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">IOBUF</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/IOB1</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">IOBUF</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/IOB2</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDS</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/state_FSM_FFd6</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDS</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/SCLout</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">FDS</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/SDAout</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">LUT1</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_1_rt</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">LUT1</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_2_rt</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">LUT1</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_3_rt</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">LUT1</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_4_rt</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">LUT1</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_5_rt</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">LUT1</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_cy_6_rt</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">LUT1</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/Mcount_cntSCL_xor_7_rt</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXF5</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/i_FIFO_DoPop_SW3</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXF5</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/i_FIFO_DoPop_SW4</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXF5</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_mux0000_7_f5</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXF5</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_mux0000_6_f5</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXF5</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_mux0000_5_f5</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXF5</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_mux0000_4_f5</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXF5</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_mux0000_3_f5</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXF5</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_mux0000_2_f5</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="973" delta="new" >The <arg fmt="%s" index="1">MUXF5</arg> symbol &apos;<arg fmt="%s" index="2">XLXI_2/sregOut_mux0000_1_f5</arg>&apos; is not supported in the <arg fmt="%s" index="3">xc9500xl</arg> architecture.
+</msg>
+
+<msg type="error" file="NgdBuild" num="947" delta="new" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SCL_OBUF</arg>&apos; is driving non-input buffer(s)<arg fmt="%s" index="3">:
+  pin I on block SCL_OBUF with type OBUF</arg>
+</msg>
+
+<msg type="error" file="NgdBuild" num="947" delta="new" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SDA_OBUF</arg>&apos; is driving non-input buffer(s)<arg fmt="%s" index="3">:
+  pin I on block SDA_OBUF with type OBUF</arg>
+</msg>
+
+</messages>
+
