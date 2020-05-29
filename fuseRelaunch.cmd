@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "D:/xylinx/projekt2/sch_sch_sch_tb_isim_beh.exe" -prj "D:/xylinx/projekt2/sch_sch_sch_tb_beh.prj" "work.sch_sch_sch_tb" 
+-intstyle "ise" -incremental -o "C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/ACL_ACL_sch_tb_isim_beh.exe" -prj "C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/ACL_ACL_sch_tb_beh.prj" "work.ACL_ACL_sch_tb" 

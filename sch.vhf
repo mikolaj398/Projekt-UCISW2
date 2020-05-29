@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : sch.vhf
--- /___/   /\     Timestamp : 05/21/2020 21:30:53
+-- /___/   /\     Timestamp : 05/29/2020 00:52:43
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family xc9500xl -flat -suppress -vhdl D:/xylinx/projekt2/sch.vhf -w D:/xylinx/projekt2/sch.sch
+--Command: sch2hdl -intstyle ise -family xc9500xl -flat -suppress -vhdl C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/sch.vhf -w C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/sch.sch
 --Design Name: sch
 --Device: xc9500xl
 --Purpose:
@@ -26,15 +26,16 @@ library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
 entity sch is
-   port ( Clk   : in    std_logic; 
-          Reset : in    std_logic; 
-          ID    : out   std_logic_vector (7 downto 0); 
-          NACK  : out   std_logic; 
-          X     : out   std_logic_vector (7 downto 0); 
-          Y     : out   std_logic_vector (7 downto 0); 
-          Z     : out   std_logic_vector (7 downto 0); 
-          SCL   : inout std_logic; 
-          SDA   : inout std_logic);
+   port ( Clk     : in    std_logic; 
+          Reset   : in    std_logic; 
+          BW_Tick : out   std_logic; 
+          ID      : out   std_logic_vector (7 downto 0); 
+          NACK    : out   std_logic; 
+          X       : out   std_logic_vector (15 downto 0); 
+          Y       : out   std_logic_vector (15 downto 0); 
+          Z       : out   std_logic_vector (15 downto 0); 
+          SCL     : inout std_logic; 
+          SDA     : inout std_logic);
 end sch;
 
 architecture BEHAVIORAL of sch is
@@ -62,9 +63,10 @@ architecture BEHAVIORAL of sch is
              I2C_Addr       : out   std_logic_vector (7 downto 0); 
              I2C_ReadCnt    : out   std_logic_vector (3 downto 0); 
              ID             : out   std_logic_vector (7 downto 0); 
-             X              : out   std_logic_vector (7 downto 0); 
-             Y              : out   std_logic_vector (7 downto 0); 
-             Z              : out   std_logic_vector (7 downto 0));
+             X              : out   std_logic_vector (15 downto 0); 
+             Y              : out   std_logic_vector (15 downto 0); 
+             Z              : out   std_logic_vector (15 downto 0); 
+             BW_Tick        : out   std_logic);
    end component;
    
    component I2C_Master
@@ -93,6 +95,7 @@ begin
                 I2C_FIFO_Empty=>XLXN_7,
                 I2C_FIFO_Full=>XLXN_8,
                 Reset=>Reset,
+                BW_Tick=>BW_Tick,
                 ID(7 downto 0)=>ID(7 downto 0),
                 I2C_Addr(7 downto 0)=>XLXN_5(7 downto 0),
                 I2C_FIFO_DI(7 downto 0)=>XLXN_4(7 downto 0),
@@ -100,9 +103,9 @@ begin
                 I2C_FIFO_Push=>XLXN_2,
                 I2C_Go=>XLXN_1,
                 I2C_ReadCnt(3 downto 0)=>XLXN_6(3 downto 0),
-                X(7 downto 0)=>X(7 downto 0),
-                Y(7 downto 0)=>Y(7 downto 0),
-                Z(7 downto 0)=>Z(7 downto 0));
+                X(15 downto 0)=>X(15 downto 0),
+                Y(15 downto 0)=>Y(15 downto 0),
+                Z(15 downto 0)=>Z(15 downto 0));
    
    XLXI_2 : I2C_Master
       port map (Address(7 downto 0)=>XLXN_5(7 downto 0),

@@ -1,3 +1,4 @@
 xst -intstyle ise -ifn "D:/xylinx/projekt2/sch.xst" -ofn "D:/xylinx/projekt2/sch.syr" 
 xst -intstyle ise -ifn "D:/xylinx/projekt2/sch.xst" -ofn "D:/xylinx/projekt2/sch.syr" 
 ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 sch.ngc sch.ngd  
+sch2sym -intstyle ise -family xc9500xl -refsym sch C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/sch.sch C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/sch.sym 

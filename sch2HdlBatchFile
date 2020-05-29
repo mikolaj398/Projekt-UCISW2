@@ -1,1 +1,2 @@
-sch2hdl,-intstyle,ise,-family,xc9500xl,-flat,-suppress,-vhdl,D:/xylinx/projekt2/sch.vhf,-w,D:/xylinx/projekt2/sch.sch
+sch2hdl,-intstyle,ise,-family,xc9500xl,-flat,-suppress,-vhdl,C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/AccelADXL345.vhf,-w,C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/AccelADXL345.sch
+sch2hdl,-intstyle,ise,-family,xc9500xl,-flat,-suppress,-vhdl,C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/ACL.vhf,-w,C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/ACL.sch

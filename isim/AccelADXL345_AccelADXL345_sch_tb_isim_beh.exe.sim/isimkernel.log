@@ -1,0 +1,29 @@
+Command line:
+   AccelADXL345_AccelADXL345_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50670
+
+Fri May 29 22:35:50 2020
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5180.94 Meg
+
+ Total Signals          : 1281
+ Total Nets             : 642
+ Total Signal Drivers   : 325
+ Total Blocks           : 224
+ Total Primitive Blocks : 221
+ Total Processes        : 306
+ Total Traceable Variables  : 417
+ Total Scalar Nets and Variables : 9010
+Total Line Count : 1169
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 5180.94 Meg
+
+Fri May 29 22:36:01 2020
+

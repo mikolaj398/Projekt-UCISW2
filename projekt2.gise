@@ -22,6 +22,23 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="projekt2.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="ACL.vhf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ACL_ACL_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ACL_ACL_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ACL_ACL_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ACL_ACL_sch_tb_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="AccelADXL.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="AccelADXL345.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="AccelADXL345.vhf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AccelADXL345_AccelADXL345_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="AccelADXL345_AccelADXL345_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="AccelADXL345_AccelADXL345_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AccelADXL345_AccelADXL345_sch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AccelADXL_AccelADXL_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="AccelADXL_AccelADXL_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="AccelADXL_AccelADXL_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AccelADXL_AccelADXL_sch_tb_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="AccelADXL_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="AclMod.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="AclMod.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
@@ -65,59 +82,44 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1590130983" xil_pn:in_ck="-396026332638871041" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1590130983">
+    <transform xil_pn:end_ts="1590787122" xil_pn:in_ck="3365960453016109468" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1590787122">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ACL-tb.vhd"/>
       <outfile xil_pn:name="AclMod.vhd"/>
       <outfile xil_pn:name="I2C_Master.vhd"/>
-      <outfile xil_pn:name="tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1590089454" xil_pn:in_ck="152518337834" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3122634227102055865" xil_pn:start_ts="1590089451">
+    <transform xil_pn:end_ts="1590785604" xil_pn:in_ck="-1538417239880747483" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1454117032643808163" xil_pn:start_ts="1590785602">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="sch.vhf"/>
+      <outfile xil_pn:name="ACL.vhf"/>
+      <outfile xil_pn:name="AccelADXL345.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1590130988" xil_pn:in_ck="-5274614620801646993" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1590130988">
+    <transform xil_pn:end_ts="1590787125" xil_pn:in_ck="-7120558766236235219" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1590787125">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ACL-tb.vhd"/>
+      <outfile xil_pn:name="ACL.vhf"/>
+      <outfile xil_pn:name="AccelADXL345.vhf"/>
       <outfile xil_pn:name="AclMod.vhd"/>
       <outfile xil_pn:name="I2C_Master.vhd"/>
-      <outfile xil_pn:name="sch.vhf"/>
-      <outfile xil_pn:name="tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1590131004" xil_pn:in_ck="-5274614620801646993" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4929117116239218006" xil_pn:start_ts="1590130988">
+    <transform xil_pn:end_ts="1590787131" xil_pn:in_ck="-7120558766236235219" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-764005588101185550" xil_pn:start_ts="1590787125">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ACL_ACL_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="ACL_ACL_sch_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="sch_sch_sch_tb_beh.prj"/>
-      <outfile xil_pn:name="sch_sch_sch_tb_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1590131005" xil_pn:in_ck="9196485643822995772" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6259728498516177495" xil_pn:start_ts="1590131004">
+    <transform xil_pn:end_ts="1590787131" xil_pn:in_ck="-452486837318794640" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2045310084781578527" xil_pn:start_ts="1590787131">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ACL_ACL_sch_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="sch_sch_sch_tb_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1590084452" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1590084452">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -127,49 +129,41 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="sch.vhf"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1590084659" xil_pn:in_ck="5377875095440686121" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="-5994082915064208665" xil_pn:start_ts="1590084648">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="sch.jhd"/>
-      <outfile xil_pn:name="sch.lso"/>
-      <outfile xil_pn:name="sch.ngc"/>
-      <outfile xil_pn:name="sch.ngr"/>
-      <outfile xil_pn:name="sch.prj"/>
-      <outfile xil_pn:name="sch.stx"/>
-      <outfile xil_pn:name="sch.syr"/>
-      <outfile xil_pn:name="sch.xst"/>
-      <outfile xil_pn:name="sch_sch_sch_tb_stx_beh.prj"/>
-      <outfile xil_pn:name="sch_vhdl.prj"/>
-      <outfile xil_pn:name="sch_xst.xrpt"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
     </transform>
     <transform xil_pn:end_ts="1590084462" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3734212952610464" xil_pn:start_ts="1590084462">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1590084670" xil_pn:in_ck="152518332516" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="920057667651985957" xil_pn:start_ts="1590084659">
       <status xil_pn:value="FailedRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="_ngo"/>
-      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
-      <outfile xil_pn:name="sch.bld"/>
-      <outfile xil_pn:name="sch_ngdbuild.xrpt"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 

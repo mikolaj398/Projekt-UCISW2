@@ -28,22 +28,24 @@ ARCHITECTURE behavioral OF sch_sch_sch_tb IS
    COMPONENT sch
    PORT(  Clk	:	IN	STD_LOGIC; 
           Reset	:	IN	STD_LOGIC; 
-          X	:	OUT	STD_LOGIC_VECTOR (7 DOWNTO 0); 
+          X	:	OUT	STD_LOGIC_VECTOR (15 DOWNTO 0); 
           ID	:	OUT	STD_LOGIC_VECTOR (7 DOWNTO 0); 
-          Y	:	OUT	STD_LOGIC_VECTOR (7 DOWNTO 0); 
-          Z	:	OUT	STD_LOGIC_VECTOR (7 DOWNTO 0); 
+          Y	:	OUT	STD_LOGIC_VECTOR (15 DOWNTO 0); 
+          Z	:	OUT	STD_LOGIC_VECTOR (15 DOWNTO 0); 
           NACK	:	OUT	STD_LOGIC; 
+			 BW_Tick	:	OUT	STD_LOGIC; 
           SCL	:	INOUT	STD_LOGIC; 
           SDA	:	INOUT	STD_LOGIC);
    END COMPONENT;
 
    SIGNAL Clk	:	STD_LOGIC := '0';
    SIGNAL Reset	:	STD_LOGIC;
-   SIGNAL X	:	STD_LOGIC_VECTOR (7 DOWNTO 0);
+   SIGNAL X	:	STD_LOGIC_VECTOR (15 DOWNTO 0);
    SIGNAL ID	:	STD_LOGIC_VECTOR (7 DOWNTO 0);
-   SIGNAL Y	:	STD_LOGIC_VECTOR (7 DOWNTO 0);
-   SIGNAL Z	:	STD_LOGIC_VECTOR (7 DOWNTO 0);
+   SIGNAL Y	:	STD_LOGIC_VECTOR (15 DOWNTO 0);
+   SIGNAL Z	:	STD_LOGIC_VECTOR (15 DOWNTO 0);
    SIGNAL NACK	:	STD_LOGIC;
+	SIGNAL BW_Tick	: STD_LOGIC := '0'; 
    SIGNAL SCL	:	STD_LOGIC;
    SIGNAL SDA	:	STD_LOGIC;
 
@@ -57,14 +59,16 @@ BEGIN
 		Y => Y, 
 		Z => Z, 
 		NACK => NACK, 
+		BW_Tick => BW_Tick,
 		SCL => SCL, 
 		SDA => SDA
    );
 
-CLk <= not CLk after 10 ns;
+	CLk <= not CLk after 10 ns;
 	Reset <= '1', '0' after 500 ns;
    SDA <= 'H';
    SCL <= 'H';
+	BW_Tick <= not BW_Tick after 80 ms;
    process
       variable bAddr  : std_logic_vector( 7 downto 0 );             -- I2C adress received as the first byte
       variable bWrite : std_logic_vector( 7 downto 0 );             -- byte received in write transfers

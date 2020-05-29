@@ -1,12 +1,13 @@
-Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "D:/xylinx/projekt2/sch_sch_sch_tb_isim_beh.exe" -prj "D:/xylinx/projekt2/sch_sch_sch_tb_beh.prj" "work.sch_sch_sch_tb" 
+Running: D:\xylinx\xdd\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/ACL_ACL_sch_tb_isim_beh.exe -prj C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/ACL_ACL_sch_tb_beh.prj work.ACL_ACL_sch_tb 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "D:/xylinx/projekt2/I2C_Master.vhd" into library work
-Parsing VHDL file "D:/xylinx/projekt2/AclMod.vhd" into library work
-Parsing VHDL file "D:/xylinx/projekt2/sch.vhf" into library work
-Parsing VHDL file "D:/xylinx/projekt2/tb.vhd" into library work
+Parsing VHDL file "C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/I2C_Master.vhd" into library work
+Parsing VHDL file "C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/AclMod.vhd" into library work
+Parsing VHDL file "C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/AccelADXL345.vhf" into library work
+Parsing VHDL file "C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/ACL.vhf" into library work
+Parsing VHDL file "C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/ACL-tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
@@ -15,7 +16,6 @@ Compiling package numeric_std
 Compiling package vcomponents
 Compiling package textio
 Compiling package std_logic_textio
-Compiling architecture behavioral of entity AclMod [aclmod_default]
 Compiling package vital_timing
 Compiling package vital_primitives
 Compiling package vpkg
@@ -43,12 +43,14 @@ Compiling architecture lut4_l_v of entity LUT4_L [\LUT4_L("1100010000000100")(0,
 Compiling architecture lut3_d_v of entity LUT3_D [\LUT3_D("00001000")(0,7)\]
 Compiling architecture lut2_d_v of entity LUT2_D [\LUT2_D("1101")(0,3)\]
 Compiling architecture structure of entity I2C_Master [i2c_master_default]
-Compiling architecture behavioral of entity sch [sch_default]
-Compiling architecture behavioral of entity sch_sch_sch_tb
+Compiling architecture behavioral of entity AclMod [aclmod_default]
+Compiling architecture behavioral of entity AccelADXL345_MUSER_ACL [acceladxl345_muser_acl_default]
+Compiling architecture behavioral of entity ACL [acl_default]
+Compiling architecture behavioral of entity acl_acl_sch_tb
 Time Resolution for simulation is 1ps.
 Waiting for 27 sub-compilation(s) to finish...
-WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\sch_sch_sch_tb_isim_beh.exe.sim\libPortability.dll".
-Compiled 188 VHDL Units
-Built simulation executable D:/xylinx/projekt2/sch_sch_sch_tb_isim_beh.exe
-Fuse Memory Usage: 62864 KB
-Fuse CPU Usage: 1265 ms
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\ACL_ACL_sch_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 190 VHDL Units
+Built simulation executable C:/Users/Mikolaj/Desktop/xd/Projekt-UCISW2/ACL_ACL_sch_tb_isim_beh.exe
+Fuse Memory Usage: 63088 KB
+Fuse CPU Usage: 1249 ms

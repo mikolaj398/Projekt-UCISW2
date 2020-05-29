@@ -1,0 +1,5 @@
+vhdl work "I2C_Master.vhd"
+vhdl work "AclMod.vhd"
+vhdl work "AccelADXL345.vhf"
+vhdl work "AccelADXL.vhf"
+vhdl work "ACL_tb.vhd"
